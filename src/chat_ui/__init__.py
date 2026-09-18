@@ -1,0 +1,1 @@
+"""Chat UI package for GitHub operations."""
