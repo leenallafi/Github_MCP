@@ -1,0 +1,18 @@
+[project]
+name = "github-mcp"
+version = "0.1.0"
+description = " description "
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.141.1",
+    "fastmcp>=4.0.5",
+    "google-genai==1.28.0",
+    "groq>=1.7.0",
+    "pygithub>=2.10.0",
+    "streamlit>=1.64.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
